@@ -54,14 +54,23 @@ O sistema foi separado em dois projetos independentes:
 A estrutura geral segue o padrão abaixo:
 
 OSManager/
+
 ├── backend/
+
 │ ├── app.py
+
 │ ├── requirements.txt
+
 │ └── (código do servidor)
+
 │
+
 └── interface/
+
 ├── src/
+
 ├── package.json
+
 └── vite.config.js
 
 Conforme solicitado:
@@ -82,3 +91,27 @@ Acessar a pasta:
 
 ```bash
 cd backend
+
+5. Como Utilizar o Sistema
+
+Abra o frontend pelo navegador.
+
+Faça o cadastro e depois o login.
+
+No painel, você pode:
+
+Criar novas OS
+
+Editar informações
+
+Excluir registros
+
+Filtrar por status
+
+Os contadores são atualizados automaticamente conforme você altera ou cria OS.
+
+Para sair da aplicação, basta clicar em Sair.
+
+6. Conclusão
+
+O projeto entrega exatamente o que foi pedido: um sistema completo de controle de Ordens de Serviço, com autenticação, CRUD funcional, conexão com banco de dados na nuvem e interface organizada. Toda a estrutura foi separada adequadamente, o relatório técnico está neste README e a aplicação está pronta para demonstração prática no dia da entrega.
