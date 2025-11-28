@@ -4,7 +4,7 @@
 
 # OS Manager – Sistema de Ordens de Serviço
 
-Este projeto reúne o desenvolvimento completo de uma aplicação para gerenciamento de Ordens de Serviço (OS). A solução integra frontend em **Vue** e backend em **Flask**, conectados ao **MongoDB Atlas**. A ideia foi construir um sistema funcional, direto e fácil de usar, permitindo registrar, listar, editar e excluir OS, além de ter login e cadastro para controlar quem acessa.
+Este projeto reúne o desenvolvimento completo de uma aplicação para gerenciamento de Ordens de Serviço (OS). A solução integra frontend em Vue e backend em Flask, conectados ao MongoDB Atlas. A ideia foi construir um sistema funcional, direto e fácil de usar, permitindo registrar, listar, editar e excluir OS, além de ter login e cadastro para controlar quem acessa.
 
 ---
 
@@ -52,3 +52,33 @@ O sistema foi separado em dois projetos independentes:
 ## 3. Estrutura do Projeto
 
 A estrutura geral segue o padrão abaixo:
+
+OSManager/
+├── backend/
+│ ├── app.py
+│ ├── requirements.txt
+│ └── (código do servidor)
+│
+└── interface/
+├── src/
+├── package.json
+└── vite.config.js
+
+Conforme solicitado:
+- no backend não foram incluídas as pastas `venv/` e `__pycache__/`
+- no frontend não foi incluída a pasta `node_modules/`
+
+---
+
+## 4. Como Instalar e Rodar
+
+Para rodar o projeto completo, é necessário iniciar tanto o backend quanto o frontend. Cada parte funciona separadamente.
+
+---
+
+### **4.1 Backend (Flask)**
+
+Acessar a pasta:
+
+```bash
+cd backend
