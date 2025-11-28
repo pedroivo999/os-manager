@@ -169,4 +169,4 @@ Para sair da aplicação, basta clicar em Sair.
 
 6. Conclusão
 
-O projeto entrega exatamente o que foi pedido: um sistema completo de controle de Ordens de Serviço, com autenticação, CRUD funcional, conexão com banco de dados na nuvem e interface organizada. Toda a estrutura foi separada adequadamente, o relatório técnico está neste README e a aplicação está pronta para demonstração prática no dia da entrega.
+O projeto entrega exatamente o que foi pedido: um sistema completo de controle de Ordens de Serviço, com autenticação, CRUD funcional, conexão com banco de dados na nuvem e interface organizada. Toda a estrutura foi separada adequadamente e a aplicação está pronta para uso.
