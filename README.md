@@ -91,6 +91,61 @@ Acessar a pasta:
 
 ```bash
 cd backend
+```
+
+Criar o ambiente virtual (opcional):
+
+```bash
+python -m venv venv
+```
+
+Ativar no Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Instalar as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+Configurar a conexão com o MongoDB dentro do app.py.
+
+Iniciar o servidor:
+
+```bash
+python app.py
+```
+
+O backend ficará disponível em:
+
+http://127.0.0.1:5000
+
+4.2 Frontend (Vue)
+
+Acessar a pasta:
+
+```bash
+cd interface
+```
+
+Instalar as dependências:
+
+```bash
+npm install
+```
+
+Iniciar o projeto:
+
+```bash
+npm run dev
+```
+
+O frontend abre em:
+
+http://localhost:5173
 
 5. Como Utilizar o Sistema
 
